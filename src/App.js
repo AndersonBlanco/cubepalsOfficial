@@ -2,7 +2,7 @@ import "./App.css";
 import fade from "./App.css";
 
 //import * as AsyncStorage from "@react-native-async-storage/async-storage";
-import SvgComp from "./SvgBricks";
+//import SvgComp from "./SvgBricks";
 
 import React from "react";
 import { useState, useEffect, useRef } from "react";
