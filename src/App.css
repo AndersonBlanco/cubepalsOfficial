@@ -1,7 +1,14 @@
+body{
+  background-color: black; 
+}
 .App{
   padding: none;
-  background-color: rgb(39, 39, 39);
-
+  background-color: none; 
+/*  background-color: rgb(39, 39, 39); */ 
+ 
+  background-image: url("./Imgs/webCover-optY.png"); 
+  background-repeat: no-repeat; 
+  background-size: cover;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -10,12 +17,13 @@
 }
 
 .header {
-  background-color: rgb(35, 8, 193);
-  background-image: url("./Gifs/backgroundPart1Gif.gif"); 
-  background-size: auto 110vh;
+  /* background-color: rgb(35, 8, 193); */   
+ /* background-image: url("./Gifs/backgroundPart1Gif.gif");  */  
+
+background-size: cover;
   background-repeat: no-repeat;
   color: white;
-  height: 100vh;
+  height: cover;
   width: cover;
   font-family: "SF Pixelate", sans-serif;
   display: grid;
@@ -49,7 +57,7 @@ justify-content: center;
   height: fit-content;
   width: fit-content;
   padding: 5vh;
-  background-image: url("Imgs/BackgroundPart2_v2.png");
+  /* background-image: url("Imgs/BackgroundPart2_v2.png"); */  
   font-family: "ＭＳ Ｐゴシック";
   text-align: center;
   align-items: center;
@@ -72,12 +80,13 @@ justify-content: center;
 }
 
 .sect3 {
-  background-color: rgb(0, 153, 255);
- background-image: url("./SvgBricks.js"); 
-  background-size: contain;
-  background-repeat:repeat-y;
-  background-position: top;
+/*  background-color: rgb(0, 153, 255);  */ 
+
+ /* background-image: url("./Imgs/webCover2.png"); */ 
  
+
+ background-size: auto;
+ background-repeat: no-repeat;
   height: fit-content;
   width: fit-content;
   border-width: 0.5vh;
@@ -94,7 +103,8 @@ justify-content: center;
 }
 
 .sect4 {
-  background-color: rgb(0, 0, 0);
+/*   background-color: rgb(0, 0, 0); */ 
+ /* background-image: url("./Imgs/bottom.png"); */
   height: fit-content;
   width: cover;
   font-size: 2vh; 
@@ -106,7 +116,7 @@ justify-content: center;
 }
 
 .credits {
-  background-color: rgb(255, 255, 255);
+/*   background-color: rgb(255, 255, 255); */ 
   height: 100vh;
   width: cover;
   font-size: 2vh;
@@ -180,13 +190,13 @@ padding: 1vh;
 @keyframes future{
   from{
     color: black;
-    font-size: none;
+
 
   }
 
   to{
     color: blueviolet;
-    font-size: 5vh; 
+
   }
 }
 
@@ -211,3 +221,19 @@ animation-duration: 2s;
  }
 }
 
+
+#test{
+  background-image: url("./Imgs/office2.png");
+  background-size: contain;
+  height: 100vh;
+  background-repeat: no-repeat; 
+  width: 100%; 
+}
+
+#percZ{
+  background-image: url("./Imgs/office2.png");
+  background-size: contain;
+
+  background-repeat: no-repeat; 
+
+}
